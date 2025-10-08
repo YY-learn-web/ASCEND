@@ -35,8 +35,8 @@ You can either **download prepared files** from the links below or **generate th
 ### 📦 1️⃣ Download Preprocessed Data  
 | Dataset | Description | Download Link |
 |----------|--------------|----------------|
-| **DrugBank (DTI subset)** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://zenodo.org) |
-| **LINCS L1000** | Perturbation transcriptomic profiles (dose & time) | [📥 Download](https://) |
+| **xCUDO Dataset (v1.0)** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://doi.org/10.5281/zenodo.17292260) |
+
 
 ### 🧠 2️⃣ Download Pretrained Models  
 | Model | Description | Download Link |

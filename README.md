@@ -67,7 +67,5 @@ sh main.sh > ../results/Model/train.log
 cd script
 python predict.py
 ```
+## References
 
----
-
-## Setup and Dependencies

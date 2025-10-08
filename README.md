@@ -27,8 +27,47 @@
 
 ---
 
-
 ## 💾 Download Model and Datasets
 
 xCUDO requires both preprocessed datasets and trained model checkpoints for reproduction.  
 You can either **download prepared files** from the links below or **generate them locally** following the provided scripts.
+
+### 📦 1️⃣ Download Preprocessed Data  
+| Dataset | Description | Download Link |
+|----------|--------------|----------------|
+| **DrugBank (DTI subset)** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://zenodo.org) |
+| **LINCS L1000** | Perturbation transcriptomic profiles (dose & time) | [📥 Download](https://) |
+
+### 🧠 2️⃣ Download Pretrained Models  
+| Model | Description | Download Link |
+|--------|--------------|----------------|
+| **xCUDO-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://zenodo.org/record/1234567/files/xCUDO_base.pt) |
+
+---
+
+## 🚀 Quick Start
+
+### **Step 1: Installation**
+
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/YY-learn-web/xCUDO.git
+cd xCUDO
+pip install -r requirements.txt
+```
+
+### **Step 2: Train Model**
+```bash
+cd script
+sh main.sh > ../results/Model/train.log
+```
+
+### **Step 3: Infer Cellular Response Profile**
+```bash
+cd script
+python predict.py
+```
+
+---
+
+## Setup and Dependencies

@@ -41,7 +41,7 @@ You can either **download prepared files** from the links below or **generate th
 ### 🧠 2️⃣ Download Pretrained Models  
 | Model | Description | Download Link |
 |--------|--------------|----------------|
-| **xCUDO-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://zenodo.org/record/1234567/files/xCUDO_base.pt) |
+| **xCUDO-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://doi.org/10.5281/zenodo.17291971) |
 
 ---
 

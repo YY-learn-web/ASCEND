@@ -1,0 +1,291 @@
+Use GPU: True
+Start en-de trainning
+Validation loss decreased (inf --> 48.209355).  Saving model ...
+Validation loss decreased (48.209355 --> 11.976863).  Saving model ...
+Validation loss decreased (11.976863 --> 7.616217).  Saving model ...
+Validation loss decreased (7.616217 --> 4.513196).  Saving model ...
+Validation loss decreased (4.513196 --> 3.600305).  Saving model ...
+Validation loss decreased (3.600305 --> 2.039244).  Saving model ...
+Validation loss decreased (2.039244 --> 1.442568).  Saving model ...
+Validation loss decreased (1.442568 --> 1.210277).  Saving model ...
+EarlyStopping counter: 1 out of 10
+EarlyStopping counter: 2 out of 10
+Start adversarial training
+Validation loss decreased (inf --> 0.740786).  Saving model ...
+EarlyStopping counter: 1 out of 15
+Validation loss decreased (0.740786 --> 0.437130).  Saving model ...
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+Validation loss decreased (0.437130 --> 0.398633).  Saving model ...
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+Validation loss decreased (0.398633 --> 0.266792).  Saving model ...
+Start finetuning
+Validation loss decreased (inf --> -0.148087).  Saving model ...
+Precision@10 Positive: 0.2161
+Precision@10 Negative: 0.2946
+Precision@20 Positive: 0.1844
+Precision@20 Negative: 0.2522
+Precision@50 Positive: 0.1591
+Precision@50 Negative: 0.2074
+Precision@100 Positive: 0.1459
+Precision@100 Negative: 0.1803
+0Validation Loss: 6.147991723316991
+0Validation RMSE: 2.479352307853286
+0Validation Pearson: 0.14808689019076038
+0Validation Spearman: 0.13902534130170002
+0Validation Precision: [[np.float64(0.2160919540229885), np.float64(0.29455938697318007)], [np.float64(0.18444444444444447), np.float64(0.2522222222222222)], [np.float64(0.15906513409961684), np.float64(0.20735632183908043)], [np.float64(0.14592337164750957), np.float64(0.1802605363984674)]]
+
+
+Precision@10 Positive: 0.2233
+Precision@10 Negative: 0.3122
+Precision@20 Positive: 0.1970
+Precision@20 Negative: 0.2652
+Precision@50 Positive: 0.1677
+Precision@50 Negative: 0.2116
+Precision@100 Positive: 0.1522
+Precision@100 Negative: 0.1812
+0Test Loss: 6.62823971228667
+0Test RMSE: 2.574974456436669
+0Test Pearson: 0.15653578602106832
+0Test Spearman: 0.14425784005509373
+0Test Precision: [[np.float64(0.22327586206896552), np.float64(0.3121510673234811)], [np.float64(0.19696223316912975), np.float64(0.26516830870279146)], [np.float64(0.1677175697865353), np.float64(0.21164203612479474)], [np.float64(0.1522495894909688), np.float64(0.18120279146141213)]]
+0DEGs Pearson: 0.3629745240073309
+0DEGs Spearman: 0.3261678588215688
+
+
+Validation loss decreased (-0.148087 --> -0.211117).  Saving model ...
+Precision@10 Positive: 0.2701
+Precision@10 Negative: 0.2787
+Precision@20 Positive: 0.2278
+Precision@20 Negative: 0.2575
+Precision@50 Positive: 0.1911
+Precision@50 Negative: 0.2259
+Precision@100 Positive: 0.1702
+Precision@100 Negative: 0.1961
+Precision@10 Positive: 0.2742
+Precision@10 Negative: 0.2783
+Precision@20 Positive: 0.2305
+Precision@20 Negative: 0.2581
+Precision@50 Positive: 0.1952
+Precision@50 Negative: 0.2242
+Precision@100 Positive: 0.1747
+Precision@100 Negative: 0.1960
+1Test Loss: 6.396828048092854
+1Test RMSE: 2.5288540699711204
+1Test Pearson: 0.21009154118697565
+1Test Spearman: 0.18794881740216685
+1Test Precision: [[np.float64(0.27422003284072255), np.float64(0.27832512315270935)], [np.float64(0.2305008210180624), np.float64(0.2580665024630542)], [np.float64(0.19520525451559934), np.float64(0.2241871921182266)], [np.float64(0.1746510673234811), np.float64(0.19604269293924464)]]
+1DEGs Pearson: 0.3832645369233623
+1DEGs Spearman: 0.34984192481061877
+
+
+Validation loss decreased (-0.211117 --> -0.262454).  Saving model ...
+Precision@10 Positive: 0.3129
+Precision@10 Negative: 0.3074
+Precision@20 Positive: 0.2688
+Precision@20 Negative: 0.2868
+Precision@50 Positive: 0.2262
+Precision@50 Negative: 0.2547
+Precision@100 Positive: 0.1982
+Precision@100 Negative: 0.2211
+Precision@10 Positive: 0.2993
+Precision@10 Negative: 0.3050
+Precision@20 Positive: 0.2599
+Precision@20 Negative: 0.2826
+Precision@50 Positive: 0.2182
+Precision@50 Negative: 0.2455
+Precision@100 Positive: 0.1925
+Precision@100 Negative: 0.2134
+2Test Loss: 5.672713923253846
+2Test RMSE: 2.382169710297899
+2Test Pearson: 0.24909562189247123
+2Test Spearman: 0.22712975496905521
+2Test Precision: [[np.float64(0.2993431855500821), np.float64(0.30500821018062396)], [np.float64(0.25989326765188836), np.float64(0.28263546798029554)], [np.float64(0.2181609195402299), np.float64(0.24545155993431858)], [np.float64(0.19247947454844005), np.float64(0.21344006568144502)]]
+2DEGs Pearson: 0.3980711028488772
+2DEGs Spearman: 0.3675168647987392
+
+
+Validation loss decreased (-0.262454 --> -0.307470).  Saving model ...
+Precision@10 Positive: 0.3585
+Precision@10 Negative: 0.3179
+Precision@20 Positive: 0.3202
+Precision@20 Negative: 0.3029
+Precision@50 Positive: 0.2684
+Precision@50 Negative: 0.2738
+Precision@100 Positive: 0.2281
+Precision@100 Negative: 0.2403
+Precision@10 Positive: 0.3258
+Precision@10 Negative: 0.3193
+Precision@20 Positive: 0.2873
+Precision@20 Negative: 0.2999
+Precision@50 Positive: 0.2444
+Precision@50 Negative: 0.2642
+Precision@100 Positive: 0.2113
+Precision@100 Negative: 0.2283
+3Test Loss: 5.302762932311605
+3Test RMSE: 2.303092561238658
+3Test Pearson: 0.2806993146802104
+3Test Spearman: 0.2613979276708877
+3Test Precision: [[np.float64(0.3257799671592775), np.float64(0.31925287356321835)], [np.float64(0.2872536945812808), np.float64(0.2998768472906404)], [np.float64(0.24440065681444992), np.float64(0.26424466338259445)], [np.float64(0.21133004926108373), np.float64(0.22827586206896552)]]
+3DEGs Pearson: 0.4119943157870551
+3DEGs Spearman: 0.382421809695934
+
+
+Validation loss decreased (-0.307470 --> -0.346052).  Saving model ...
+Precision@10 Positive: 0.3847
+Precision@10 Negative: 0.3367
+Precision@20 Positive: 0.3551
+Precision@20 Negative: 0.3187
+Precision@50 Positive: 0.3007
+Precision@50 Negative: 0.2873
+Precision@100 Positive: 0.2543
+Precision@100 Negative: 0.2546
+Precision@10 Positive: 0.3417
+Precision@10 Negative: 0.3298
+Precision@20 Positive: 0.3060
+Precision@20 Negative: 0.3071
+Precision@50 Positive: 0.2618
+Precision@50 Negative: 0.2705
+Precision@100 Positive: 0.2256
+Precision@100 Negative: 0.2368
+4Test Loss: 5.365630071631043
+4Test RMSE: 2.3167429922406986
+4Test Pearson: 0.30514055953514324
+4Test Spearman: 0.28792881915712426
+4Test Precision: [[np.float64(0.3417487684729064), np.float64(0.3298440065681445)], [np.float64(0.30601395730706077), np.float64(0.30710180623973726)], [np.float64(0.26176518883415434), np.float64(0.2705172413793103)], [np.float64(0.22555829228243024), np.float64(0.23676929392446633)]]
+4DEGs Pearson: 0.4273430709657757
+4DEGs Spearman: 0.3986326279829098
+
+
+Validation loss decreased (-0.346052 --> -0.374029).  Saving model ...
+Precision@10 Positive: 0.4394
+Precision@10 Negative: 0.3561
+Precision@20 Positive: 0.3919
+Precision@20 Negative: 0.3367
+Precision@50 Positive: 0.3222
+Precision@50 Negative: 0.3054
+Precision@100 Positive: 0.2676
+Precision@100 Negative: 0.2683
+Precision@10 Positive: 0.3611
+Precision@10 Negative: 0.3432
+Precision@20 Positive: 0.3231
+Precision@20 Negative: 0.3169
+Precision@50 Positive: 0.2720
+Precision@50 Negative: 0.2767
+Precision@100 Positive: 0.2332
+Precision@100 Negative: 0.2423
+5Test Loss: 5.112353984123215
+5Test RMSE: 2.2615221035233537
+5Test Pearson: 0.32355562275819644
+5Test Spearman: 0.3082198701970639
+5Test Precision: [[np.float64(0.36112479474548437), np.float64(0.34318555008210183)], [np.float64(0.3230706075533662), np.float64(0.31689244663382593)], [np.float64(0.2719950738916256), np.float64(0.2767323481116585)], [np.float64(0.2331855500821018), np.float64(0.2423399014778325)]]
+5DEGs Pearson: 0.43595943710736673
+5DEGs Spearman: 0.4075131832479409
+
+
+Validation loss decreased (-0.374029 --> -0.398172).  Saving model ...
+Precision@10 Positive: 0.4554
+Precision@10 Negative: 0.3737
+Precision@20 Positive: 0.4117
+Precision@20 Negative: 0.3503
+Precision@50 Positive: 0.3487
+Precision@50 Negative: 0.3156
+Precision@100 Positive: 0.2882
+Precision@100 Negative: 0.2779
+Precision@10 Positive: 0.3782
+Precision@10 Negative: 0.3555
+Precision@20 Positive: 0.3369
+Precision@20 Negative: 0.3271
+Precision@50 Positive: 0.2871
+Precision@50 Negative: 0.2856
+Precision@100 Positive: 0.2456
+Precision@100 Negative: 0.2497
+6Test Loss: 5.084981294214818
+6Test RMSE: 2.255900835085094
+6Test Pearson: 0.33567436984045257
+6Test Spearman: 0.3195841312199118
+6Test Precision: [[np.float64(0.37820197044334974), np.float64(0.3554597701149425)], [np.float64(0.3369252873563218), np.float64(0.32707307060755336)], [np.float64(0.2870771756978654), np.float64(0.2855747126436782)], [np.float64(0.2455665024630542), np.float64(0.24967569786535304)]]
+6DEGs Pearson: 0.442268598076279
+6DEGs Spearman: 0.4133232331556616
+
+
+Validation loss decreased (-0.398172 --> -0.421212).  Saving model ...
+Precision@10 Positive: 0.4789
+Precision@10 Negative: 0.4061
+Precision@20 Positive: 0.4370
+Precision@20 Negative: 0.3788
+Precision@50 Positive: 0.3721
+Precision@50 Negative: 0.3316
+Precision@100 Positive: 0.3049
+Precision@100 Negative: 0.2862
+Precision@10 Positive: 0.3983
+Precision@10 Negative: 0.3798
+Precision@20 Positive: 0.3516
+Precision@20 Negative: 0.3462
+Precision@50 Positive: 0.2963
+Precision@50 Negative: 0.2939
+Precision@100 Positive: 0.2513
+Precision@100 Negative: 0.2536
+7Test Loss: 4.9954378522519916
+7Test RMSE: 2.2342795401748807
+7Test Pearson: 0.34592942750453537
+7Test Spearman: 0.3284964260077308
+7Test Precision: [[np.float64(0.3983169129720854), np.float64(0.37976190476190474)], [np.float64(0.351580459770115), np.float64(0.346243842364532)], [np.float64(0.296256157635468), np.float64(0.29394088669950735)], [np.float64(0.251252052545156), np.float64(0.25362479474548444)]]
+7DEGs Pearson: 0.44854495472139244
+7DEGs Spearman: 0.4176009211387726
+
+
+Validation loss decreased (-0.421212 --> -0.443144).  Saving model ...
+Precision@10 Positive: 0.5186
+Precision@10 Negative: 0.4351
+Precision@20 Positive: 0.4786
+Precision@20 Negative: 0.4005
+Precision@50 Positive: 0.3997
+Precision@50 Negative: 0.3545
+Precision@100 Positive: 0.3242
+Precision@100 Negative: 0.3038
+Precision@10 Positive: 0.4272
+Precision@10 Negative: 0.4103
+Precision@20 Positive: 0.3772
+Precision@20 Negative: 0.3711
+Precision@50 Positive: 0.3161
+Precision@50 Negative: 0.3147
+Precision@100 Positive: 0.2638
+Precision@100 Negative: 0.2660
+8Test Loss: 4.98996207256105
+8Test RMSE: 2.2343154923046082
+8Test Pearson: 0.36456244165850155
+8Test Spearman: 0.3451303661210549
+8Test Precision: [[np.float64(0.4272167487684728), np.float64(0.4103448275862069)], [np.float64(0.377196223316913), np.float64(0.3710591133004926)], [np.float64(0.3161165845648604), np.float64(0.31467159277504103)], [np.float64(0.2637766830870279), np.float64(0.2660016420361248)]]
+8DEGs Pearson: 0.4556515431515312
+8DEGs Spearman: 0.4241855128795187
+
+
+Validation loss decreased (-0.443144 --> -0.471417).  Saving model ...
+Precision@10 Positive: 0.5651
+Precision@10 Negative: 0.4398
+Precision@20 Positive: 0.5308
+Precision@20 Negative: 0.4035
+Precision@50 Positive: 0.4469
+Precision@50 Negative: 0.3582
+Precision@100 Positive: 0.3546
+Precision@100 Negative: 0.3088
+Precision@10 Positive: 0.4818
+Precision@10 Negative: 0.4394
+Precision@20 Positive: 0.4204
+Precision@20 Negative: 0.3861
+Precision@50 Positive: 0.3443
+Precision@50 Negative: 0.3140
+Precision@100 Positive: 0.2802
+Precision@100 Negative: 0.2664
+9Test Loss: 4.84380118539415
+9Test RMSE: 2.2010656052109603
+9Test Pearson: 0.3835472036166617
+9Test Spearman: 0.36374615732764276
+9Test Precision: [[np.float64(0.4817733990147783), np.float64(0.4394088669950739)], [np.float64(0.4204433497536946), np.float64(0.3861453201970444)], [np.float64(0.34426108374384234), np.float64(0.3140229885057471)], [np.float64(0.28020114942528734), np.float64(0.2663793103448276)]]
+9DEGs Pearson: 0.467995924677398
+9DEGs Spearman: 0.4335446557619504
+
+

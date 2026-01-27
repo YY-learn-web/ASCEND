@@ -17,7 +17,7 @@
 
 ## 🧩 ASCEND Framework
 
-![ASCEND Framework](./figures/framework.png)
+![ASCEND Framework](./figures/Fig1.png)
 
 > **Figure | ASCEND Overall Architecture.**  
 > **(a) Data collecting and processing:** Integrates multi-source data including drug SMILES structures, perturbation transcriptomes, baseline cell expression, and continuous metadata (time, concentration).

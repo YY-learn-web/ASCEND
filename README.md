@@ -1,6 +1,6 @@
-# xCUDO: Cross-Cell Universal Dynamic Omics Platform
+# ASCEND: Adaptive Spatiotemporal Cell Encoding for Dynamics
 
-> **xCUDO** is a virtual-cell AI system that simulates dose- and time-dependent transcriptomic responses across thousands of cellular states.  
+> **ASCEND** is a virtual-cell AI system that simulates dose- and time-dependent transcriptomic responses across thousands of cellular states.  
 > It enables large-scale drug repositioning and target discovery through cross-cell dynamic modeling and multi-omics integration.
 
 ---
@@ -15,11 +15,11 @@
 
 ---
 
-## 🧩 xCUDO Framework
+## 🧩 ASCEND Framework
 
-![xCUDO Framework](./figures/framework.png)
+![ASCEND Framework](./figures/framework.png)
 
-> **Figure | xCUDO Overall Architecture.**  
+> **Figure | ASCEND Overall Architecture.**  
 > **(a) Data collecting and processing:** Integrates multi-source data including drug SMILES structures, perturbation transcriptomes, baseline cell expression, and continuous metadata (time, concentration).
 > **(b) Model framework principle:** The core principle is to disentangle a transcriptomic profile into cell-specific private features and perturbation-induced, cross-cell-line shared features.
 > **(c) Model architecture:** The model first uses an orthogonal autoencoder to separate private and shared latent features (Phase 1). Subsequently, it employs adversarial training to align the shared feature space across domains, enabling generalization (Phase 2).
@@ -29,19 +29,19 @@
 
 ## 💾 Download Model and Datasets
 
-xCUDO requires both preprocessed datasets and trained model checkpoints for reproduction.  
+ASCEND requires both preprocessed datasets and trained model checkpoints for reproduction.  
 You can either **download prepared files** from the links below or **generate them locally** following the provided scripts.
 
 ### 📦 1️⃣ Download Preprocessed Data  
 | Dataset | Description | Download Link |
 |----------|--------------|----------------|
-| **xCUDO Dataset (v1.0)** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://doi.org/10.5281/zenodo.17292260) |
+| **ASCEND Dataset (v1.0)** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://doi.org/10.5281/zenodo.17292260) |
 
 
 ### 🧠 2️⃣ Download Pretrained Models  
 | Model | Description | Download Link |
 |--------|--------------|----------------|
-| **xCUDO-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://doi.org/10.5281/zenodo.17291971) |
+| **ASCEND-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://doi.org/10.5281/zenodo.17291971) |
 
 ---
 
@@ -51,8 +51,8 @@ You can either **download prepared files** from the links below or **generate th
 
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/YY-learn-web/xCUDO.git
-cd xCUDO
+git clone https://github.com/YY-learn-web/ASCEND.git
+cd ASCEND
 pip install -r requirements.txt
 ```
 

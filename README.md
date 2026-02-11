@@ -30,18 +30,18 @@
 ## 💾 Download Model and Datasets
 
 ASCEND requires both preprocessed datasets and trained model checkpoints for reproduction.  
-You can either **download prepared files** from the links below or **generate them locally** following the provided scripts.
+You can **download prepared files** from the links below and put them in a new folder named */data*.
 
 ### 📦 1️⃣ Download Preprocessed Data  
 | Dataset | Description | Download Link |
 |----------|--------------|----------------|
-| **ASCEND Dataset (v1.0)** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://doi.org/10.5281/zenodo.17292260) |
+| **ASCEND Dataset (v2.0)** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://doi.org/10.5281/zenodo.17292259) |
 
-
+You can **download trained model** from the links below and put them in a new folder named */trainedModel* under */results* folder.
 ### 🧠 2️⃣ Download Pretrained Models  
 | Model | Description | Download Link |
 |--------|--------------|----------------|
-| **ASCEND-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://doi.org/10.5281/zenodo.17291971) |
+| **ASCEND-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://doi.org/10.5281/zenodo.17291970) |
 
 ---
 

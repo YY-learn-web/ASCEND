@@ -59,18 +59,17 @@ conda activate ascend
 pip install -r requirements.txt
 ```
 
-### **Step 2: Train Model**
-```bash
-cd script
-sh main.sh > ../results/Model/train.log
-```
-If you don't want to spend time training, you can directly download the pre-trained model, place it in the specified folder, and then proceed directly to step3.
-
-### **Step 3: Infer Cellular Response Profile**
+### **Step 2: Infer Cellular Response Profile**
 ```bash
 cd script
 python predict.py
 ```
+
+### **Step 3: Reproduce literature data**
+Downloading relevant data, which has been made available for download in the **Download Model and Datasets** section.
+Entering the */results* folder, use the *.ipynb* file to run the tutorial.
+
+
 ## References
 
 ## License

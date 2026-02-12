@@ -5,18 +5,6 @@
 
 ---
 
-## Documentation for peer review
-
-This repository includes the following documentation:
-
-- README.md (project overview and quick start)
-- docs/INSTALL.md (installation guide, OS/Python/dependencies/hardware, typical install time)
-- docs/DEMO.md (demo run with example data and typical runtime)
-- docs/RELEASE.md (repository link and DOI)
-- LICENSE (MIT license)
-- VERSION (version details)
-
----
 ## 🌟 Overview
 
 - ⏱️ **Time-Sensitive Analysis**：Predicting the dynamic response trajectory of cells across different time points.

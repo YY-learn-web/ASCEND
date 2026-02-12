@@ -104,7 +104,7 @@ def calculate_cmap_score_from_image(disease_deg, compound_profile, n_jobs=-1):
         # Create a mapping from gene to its 1-based rank for quick lookups
         gene_to_rank_map = {gene: i + 1 for i, gene in enumerate(ranked_genes_for_compound_list)}
 
-        # --- 计算 a_score ---
+        # --- calculate a_score ---
         # Find the ranking of disease-upregulated genes present in the compound's spectrum
         up_genes_in_profile_ranks = []
         for gene in disease_up_set: # Iterate through normalized disease up-regulated genes
@@ -118,7 +118,7 @@ def calculate_cmap_score_from_image(disease_deg, compound_profile, n_jobs=-1):
             N_total_profile_genes
         )
 
-        # --- 计算 b_score ---
+        # --- calculate b_score ---
         # Rank of disease-downregulated genes found in the compound's spectrum
         down_genes_in_profile_ranks = []
         for gene in disease_down_set: # Iterate through normalized disease down-regulated genes

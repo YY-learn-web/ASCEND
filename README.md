@@ -35,14 +35,14 @@ ASCEND requires both preprocessed datasets and trained model checkpoints for rep
 You can **download prepared files** from the links below and put them in a new folder named */data*.
 | Dataset | Description | Download Link |
 |----------|--------------|----------------|
-| **ASCEND Dataset** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://doi.org/10.5281/zenodo.18610127) |
+| **ASCEND Dataset** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://doi.org/10.5281/zenodo.17292260) |
 
 
 ### 🧠 2️⃣ Download Pretrained Models 
 You can **download trained model** from the links below and put them in a new folder named */trainedModel* under */results* folder.
 | Model | Description | Download Link |
 |--------|--------------|----------------|
-| **ASCEND-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://doi.org/10.5281/zenodo.18610494) |
+| **ASCEND-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://doi.org/10.5281/zenodo.17291971) |
 
 ---
 
@@ -69,6 +69,13 @@ python predict.py
 Downloading relevant data, which has been made available for download in the **Download Model and Datasets** section.
 Entering the */results* folder, use the *.ipynb* file to run the tutorial.
 
+### **Tested Environment**
+
+- OS: Ubuntu 22.04.5 LTS
+- Python: 3.9.19
+- GPU: NVIDIA A100 80GB
+- Driver Version: 535.171.04
+- CUDA Version: 12.2
 
 ## References
 

@@ -76,6 +76,7 @@ Entering the */results* folder, use the *.ipynb* file to run the tutorial.
 - GPU: NVIDIA A100 80GB
 - Driver Version: 535.171.04
 - CUDA Version: 12.2
+- Tested runtime: 10.32s
 
 ## References
 

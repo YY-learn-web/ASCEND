@@ -42,15 +42,16 @@ This repository includes the following documentation:
 ## 💾 Download Model and Datasets
 
 ASCEND requires both preprocessed datasets and trained model checkpoints for reproduction.  
-You can either **download prepared files** from the links below or **generate them locally** following the provided scripts.
 
 ### 📦 1️⃣ Download Preprocessed Data  
+You can **download prepared files** from the links below and put them in a new folder named */data*.
 | Dataset | Description | Download Link |
 |----------|--------------|----------------|
 | **ASCEND Dataset (v1.0)** | Drug–Target interaction matrix (used for model input) | [📥 Download](https://doi.org/10.5281/zenodo.17292260) |
 
 
-### 🧠 2️⃣ Download Pretrained Models  
+### 🧠 2️⃣ Download Pretrained Models 
+You can **download trained model** from the links below and put them in a new folder named */trainedModel* under */results* folder.
 | Model | Description | Download Link |
 |--------|--------------|----------------|
 | **ASCEND-base** | Virtual cell model trained on all 2,790 cell states | [📥 Download](https://doi.org/10.5281/zenodo.17291971) |
@@ -65,6 +66,8 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/YY-learn-web/ASCEND.git
 cd ASCEND
+conda create -n ascend python=3.9
+conda activate ascend
 pip install -r requirements.txt
 ```
 
@@ -73,6 +76,7 @@ pip install -r requirements.txt
 cd script
 sh main.sh > ../results/Model/train.log
 ```
+If you don't want to spend time training, you can directly download the pre-trained model, place it in the specified folder, and then proceed directly to step3.
 
 ### **Step 3: Infer Cellular Response Profile**
 ```bash
